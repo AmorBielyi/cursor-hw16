@@ -11,7 +11,7 @@ public class ConfigForBean {
     }
 
     @Bean
-    @ConditionalOnProperty(value = "custom.configuration.enabled")
+    @ConditionalOnProperty(value = "custom.configuration.enabled", havingValue = "true")
     public String getBean() {
         System.out.println("Hello, I am a bean, and I was created by enabled specific property");
         return "I am bean was created by property";
