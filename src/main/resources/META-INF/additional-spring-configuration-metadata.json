@@ -1,0 +1,8 @@
+{
+  "properties": [
+    {
+      "name": "custom-configuration.enabled",
+      "type": "java.lang.String",
+      "description": "Description for custom-configuration.enabled."
+  }
+] }
